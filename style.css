@@ -270,3 +270,70 @@ a{
     height: 10%;
     width: 84%;
 }
+@media (max-width: 768px) {
+    .cabecalho {
+        position: static;
+        height: auto;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .titulo {
+        margin: 0 0 10px 0;
+    }
+
+    .abas {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+        gap: 12px;
+    }
+
+    #produt, #sobr, #contat {
+        margin-left: 0;
+    }
+
+    .back, .fundo_black {
+        position: absolute;
+        height: 280px;
+        margin-top: 0;
+        object-fit: cover;
+    }
+
+    .Titulo_principal {
+        font-size: 180%;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .Sub-Titulo {
+        font-size: 110%;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    .Sub-Titulo-Produtos {
+        font-size: 180%;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 310px;
+    }
+
+    .container-produto {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 380px;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .tenis {
+        height: 180px;
+        object-fit: cover;
+    }
+}
