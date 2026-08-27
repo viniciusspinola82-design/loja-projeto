@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topo{
+    width: 100%;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2% 3%;
+}
+
+.logo h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.itens{
+    display: flex;
+    gap: 30px;
+}
+.itens a.hover{
+    color: rgba(158, 0, 0, 0.87);
+}
+menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.itens a{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
