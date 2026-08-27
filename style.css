@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(226, 226, 226);
     padding: 0px;
 }
 
@@ -8,9 +8,127 @@ a{
 }
 
 .cabecalho{
-    background-color: black;
+    position: absolute;
+    height: 9%;
+    background-color: rgb(61, 60, 60);
+    width: 100%;
+    z-index: 2;
+    margin-top: -1%;
 }
 
 .botao_cab{
-    color: blueviolet;
+    color: rgb(255, 255, 255);
+    font-size: 130%;
 }
+
+.back{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: 1;
+    margin-top: -5%;
+}
+
+.fundo_black{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: 1;
+    margin-top: -5%;
+    opacity: 60%;
+}
+
+.titulo{
+    font-size: 200%;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abas{
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -3%;
+    margin-left: 61%;
+}
+
+.Titulo_principal{
+    position: absolute;
+    margin-top: 10%;
+    color: aliceblue;
+    z-index: 3;
+    margin-left: 33%;
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Sub-Titulo{
+    position: absolute;
+    margin-top: 15%;
+    color: aliceblue;
+    z-index: 3;
+    margin-left: 36%;
+    font-size: 170%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#produt{
+    margin-left: 5%;
+}
+
+#sobr{
+    margin-left: 5%;
+}
+
+#contat{
+    margin-left: 5%;
+}
+
+.Sub-Titulo-Produtos{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 32%;
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    z-index: 3;
+    margin-left: 40%;
+}
+
+.container-produto{
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 35%;
+    height: 50%;
+    width: 20%;
+    margin-left: 18%;
+    border-radius: 6%;
+}
+
+.tenis{
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+}
+
+.Name_tenis{
+    font-size: 180%;
+    margin-left: 5%;
+}
+
+.Name_sub_tenis{
+    font-size: 130%;
+    margin-left: 5%;
+    margin-top: -5%;
+    opacity: 70%;
+}
+
+.preco{
+    font-size: 160%;
+    margin-left: 5%;
+    color: rgb(255, 145, 0);
+}
+
