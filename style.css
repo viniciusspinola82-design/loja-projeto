@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(192, 192, 192);
+    padding: 0px;
+}
+
+a{
+    text-decoration: transparent;
+}
+
+.cabecalho{
+    background-color: black;
+}
+
+.botao_cab{
+    color: blueviolet;
+}
